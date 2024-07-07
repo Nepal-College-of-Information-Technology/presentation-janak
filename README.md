@@ -36,7 +36,7 @@ For storing a set of input patterns \( S(p) \) [p = 1 to P], where \( S(p) = S<s
 
 ### For Bipolar Patterns
 
-\[ w<sub>ij</sub> = \sum<sub>p=1</sub><sup>P</sup> [s<sub>i</sub>(p)s<sub>j</sub>(p)] \quad \text{(where } w<sub>ij</sub> = 0 \text{ for all } i = j \text{)} \]
+\[ w_{ij} = \sum_{p=1}^{P} s_i(p) s_j(p) \quad \text{(where } w_{ij} = 0 \text{ for all } i = j \text{)} \]
 
 (i.e. weights here have no self-connection)
 

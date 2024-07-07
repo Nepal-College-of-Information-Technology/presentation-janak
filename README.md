@@ -10,7 +10,7 @@ The Hopfield Neural Network, invented by Dr. John J. Hopfield, consists of one l
 It is a fully interconnected neural network where each unit is connected to every other unit. It behaves in a discrete manner, i.e., it gives finite distinct output, generally of two types:
 
 - **Binary (0/1)**
-- **Bipolar (-1/1)**
+- **Bipolar (-1/1)*z
 
 The weights associated with this network are symmetric and have the following properties:
 1. `w_ij = w_ji`
@@ -138,3 +138,5 @@ where,
 The Hopfield networks have an energy function associated with them. It either diminishes or remains unchanged on update (feedback) after every iteration. The energy function for a continuous Hopfield network is defined as:
 
 \[ E = 0.5 \sum_{i=1}^n \sum_{j=1}^n w_{ij} v_i v_j + \sum_{i=1}^n \theta_i v_i
+
+`a_aij`

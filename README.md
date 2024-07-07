@@ -32,7 +32,7 @@ W_ij -> Weight associated with the connection between the ith and the jth neuron
 For storing a set of input patterns \( S(p) \) [p = 1 to P], where \( S(p) = S<sub>1</sub>(p) \ldots S<sub>i</sub>(p) \ldots S<sub>n</sub>(p) \), the weight matrix is given by:
 
 ### For Binary Patterns
-\[ w_{ij} = \sum_{p=1}^{P} [2s_i(p) - 1][2s_j(p) - 1] \quad \text{(for all } i \neq j \text{)} \]
+\sum_{i=1}^n a_i
 
 ### For Bipolar Patterns
 

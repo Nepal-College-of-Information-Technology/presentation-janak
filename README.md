@@ -139,4 +139,4 @@ The Hopfield networks have an energy function associated with them. It either di
 
 \[ E = 0.5 \sum_{i=1}^n \sum_{j=1}^n w_{ij} v_i v_j + \sum_{i=1}^n \theta_i v_i
 
-`a_aij`
+`a_ij`

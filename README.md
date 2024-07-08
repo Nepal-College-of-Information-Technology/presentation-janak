@@ -19,6 +19,9 @@ The weights associated with this network are symmetric and have the following pr
 
 - Each neuron has an inverting and a non-inverting output.
 - Being fully connected, the output of each neuron is an input to all other neurons but not to itself.
+- The below figure shows a sample representation of a Discrete Hopfield Neural Network architecture having the following elements.
+  <image src="hoplified.webp" alt="Image description">
+
 
 ### Discrete Hopfield Network Architecture
 

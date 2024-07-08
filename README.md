@@ -25,6 +25,7 @@ The weights associated with this network are symmetric and have the following pr
 - \( [x_1, x_2, \ldots, x_n] \) -> Input to the \( n \) given neurons.
 - \( [y_1, y_2, \ldots, y_n] \) -> Output obtained from the \( n \) given neurons.
 - \( w_{ij} \) -> Weight associated with the connection between the \( i \)-th and the \( j \)-th neuron.
+We calculate weights in Hopfield networks to store and retrieve patterns by determining the associations between neurons.
 
 ### Training Algorithm
 
@@ -39,6 +40,12 @@ For storing a set of input patterns \( S(p) \) [\( p = 1 \) to \( P \)], where \
   \[
   w_{ij} = \sum_{p=1}^{P} s_i(p) s_j(p) \quad \text{(where \( w_{ii} = 0 \) for all \( i = j \))}
   \]
+
+  where:
+    p represents the index of the training patterns.
+    P is the total number of training patterns.
+
+    si​(p) is the state (either 0 or 1) of the ii-th neuron in the pp-th training pattern.
 
 ### Steps in Training a Hopfield Network
 

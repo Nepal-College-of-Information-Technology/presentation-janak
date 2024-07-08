@@ -14,9 +14,9 @@
 - Content-Addressable Storage: Efficiently retrieves stored information based on partial data.
 - Signal Processing: Enhances and retrieves original signals from noisy data.
 
-##Types
--Discrete Hopfield Network
--Continuous Hoplified Network
+## Types
+- Discrete Hopfield Network
+- Continuous Hoplified Network
 
 ## Discrete Hopfield Network
 

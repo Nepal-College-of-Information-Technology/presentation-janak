@@ -1,18 +1,18 @@
 # Hopfield Neural Network
 
--The Hopfield Neural Networks, invented by Dr. John J. Hopfield in 1980s, consist of one layer of ‘n’ fully connected recurrent neurons. 
--They are generally used in performing auto-association and optimization tasks. 
--They operate through a converging interactive process and generate different responses compared to traditional neural networks.
+- The Hopfield Neural Networks, invented by Dr. John J. Hopfield in 1980s, consist of one layer of ‘n’ fully connected recurrent neurons. 
+- They are generally used in performing auto-association and optimization tasks. 
+- They operate through a converging interactive process and generate different responses compared to traditional neural networks.
 
-##Applications
--Pattern Recognition: Recognizes and recalls stored patterns from noisy inputs.
--Associative Memory: Stores and retrieves data like human memory.
--Optimization Problems: Solves complex combinatorial problems such as the traveling salesman problem.
--Error Correction: Corrects distorted data by converging to stored patterns.
--Neural Modeling: Models cognitive functions and neural processes.
--Image Reconstruction: Reconstructs images from incomplete or corrupted data.
--Content-Addressable Storage: Efficiently retrieves stored information based on partial data.
--Signal Processing: Enhances and retrieves original signals from noisy data.
+## Applications
+- Pattern Recognition: Recognizes and recalls stored patterns from noisy inputs.
+- Associative Memory: Stores and retrieves data like human memory.
+- Optimization Problems: Solves complex combinatorial problems such as the traveling salesman problem.
+- Error Correction: Corrects distorted data by converging to stored patterns.
+- Neural Modeling: Models cognitive functions and neural processes.
+- Image Reconstruction: Reconstructs images from incomplete or corrupted data.
+- Content-Addressable Storage: Efficiently retrieves stored information based on partial data.
+- Signal Processing: Enhances and retrieves original signals from noisy data.
 
 ##Types
 -Discrete Hopfield Network
